@@ -1,0 +1,597 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+    padding: 13px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main a {
+    text-decoration: none;
+    padding: 35px;
+    color: rgb(247, 24, 24);
+    font-size: 18px;
+}
+
+.main a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.bnr {
+    width: 100%;
+    height: 90vh;
+    background: url(https://www.digitinstitute.in/images/locations/madhapur-location-img.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cont h1 {
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+    text-align: center;
+}
+
+.cont p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#b1 {
+    margin: 25px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+}
+h1{
+    margin-top: 25px;
+    text-align: center;
+    color: orangered;
+    font-size: 28px;
+}
+
+
+.test {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.test1 {
+    margin: 25px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+
+.test1 img {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.test1 p {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+}
+
+.test1 h3 {
+    font-size: 22px;
+}
+
+.fa-solid {
+    color: gold;
+}
+
+.test2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+
+.test2 img {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.test2 p {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+}
+
+.test2 h3 {
+    font-size: 22px;
+}
+
+.fa-regular {
+    color: gold;
+}
+
+.login {
+   width: 100%;
+   height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+
+
+}
+
+.user {
+    width: 20%;
+    height: 55vh;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    background: rgba(42, 204, 107, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.user h1{
+    margin-top: 20px;
+    color: white;
+}
+
+.user input {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgba(238, 10, 10, 0.805);
+}
+
+.user button {
+    width: 58%;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: transparent;
+}
+.fb{ width: 100%;
+    height: 85vh;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 233, 233);
+}
+.fb1{
+    width: 40%;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.fb1 h2{
+    color: blue;
+    font-size: 45px;
+}
+.fb1 p{
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+.fbcard{
+    width: 15%;
+    height: 40vh;
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid beige;
+    align-items: center;
+
+}
+.fblogin{
+    margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.fblogin input{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#fbbtn{
+    width: 100%;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+span{
+    color: rgb(44, 157, 202);
+}
+#line{
+    width: 200px;
+    border: 1px solid gray;
+}
+.newlogin{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.newlogin button{
+    width: 100%;
+    background-color: rgb(4, 220, 4);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+
+}
+#des{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+
+}
+.tw{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.tw img{
+    width: 75%;
+    height: 75%;
+}
+.twlog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 5px 20px;
+}
+#twline{
+    width:100%;
+    border: 0.5px solid grey;
+  
+}
+.fa-brands{
+   
+    color:rgb(29, 161, 242);
+    font-size: 30px;
+}
+h5{
+    font-size: 45px;
+}
+h6{
+    font-size: 20px;
+}
+.twlog button{
+    width: 25%;
+    border: 0.5px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+#gogle{
+    font-size: 18px;
+    font-weight: bold;
+background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;;
+    padding: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#apple{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+.or{
+    width: 25%;
+    border: 0.5px solid grey;
+
+}
+#orr{
+    width: 25%;
+    text-align: center;
+}
+.twsing button{
+    width: 25%;
+    border: 0.5px solid grey;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:rgb(29, 161, 242);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.twsing p{
+    width: 30%;
+    padding: 5px;
+    text-align: justify;
+    font-size: 13px;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.signin h3{
+    font-size: 13px;
+}
+.signin button{
+    width: 25%;
+    border: 0.5px solid grey;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:rgb(249, 249, 249);
+    color: rgb(29, 161, 242);
+    font-weight: bold;
+}
+.about{
+    width: 100%;
+    display: flex;
+}
+.about p{
+    margin: 6px;
+    text-align: justify;
+    padding: 5px;
+    font-size: 12px;
+    color: gray;
+}
+.ascent{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(164, 163, 161);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+.ascentcard{
+    width: 75%;
+    height: 65vh;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 20px;
+}
+.cardimg{
+    width: 50%;
+    height: 100%;
+   
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+ border-radius: 20px 0px 0px 20px;
+}
+.ascentsign{
+    width: 50%;
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.ascentsign h1{
+    margin: 0px;
+    text-align: center;
+    color: #023a94;
+}
+.ascentsign input{
+    width: 70%;
+    padding: 8px;
+    text-align: start;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.ascentsign input::placeholder{
+    color: grey;
+}
+.ascentsign button{
+    width: 73%;
+    border: 0.5px solid grey;
+    padding: 8px;
+    border-radius: 5px;
+    color:rgb(249, 249, 249);
+    background-color: rgb(29, 161, 242);
+    font-weight: bold;
+}
+.testi2{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+.testi2 h1{
+    text-align: center;
+    font-size: 28px;
+    color: orangered;
+
+}
+.testi1{
+    margin: 25px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.testi1 img {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    margin: 25px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+}
+
+.testi1 p {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+}
+
+.testi1 h3 {
+    font-size: 22px;
+    color: orangered;
+}
+.testi1 p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.corse{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(228, 228, 228);
+    box-sizing: border-box;
+}
+.c1{
+    margin: 20px;
+    width: 37%;
+    height: 33%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 8px;
+}
+.c1 h1{
+    padding: 8px;
+    text-align: left;
+    color: gray;
+}
+.c1 h2{
+    padding: 8px;
+    color: rgb(255, 63, 95);
+}
+#crline{
+
+    border: 0.5px solid rgb(203, 202, 202);
+}
+.cr{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 8px;
+}
+.c1 p{
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px;
+    color: grey;
+}
+.c1 button{
+    width: 35%;
+    padding: 8px;
+    border-radius: 15px;
+    background: transparent;
+    color:rgb(255, 63, 95);
+    border: 2px solid rgb(255, 63, 95);;
+}
+.book{
+    color:rgb(255, 63, 95);
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    display:flex ;
+}
+.ft{
+    width: 25%;
+    margin-top: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+.ft h4{
+    color: white;
+    font-weight: bold;
+}
+#ftline{
+    width: 100%;
+    border: 1.5px solid gold;
+}
+.ft p{
+    font-size: 15px;
+    color:gray;
+}
